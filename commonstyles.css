@@ -1,0 +1,50 @@
+body {
+    background-color: #a3eae8af;
+}
+
+/*style for all the buttons in the project*/
+.btn-primary {
+    display:flex;
+    background-color: black;
+    color:white;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+}
+/*valamiert meg igy is keken vilagit kattintasra, idk*/
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+    background-color:gray;
+    border-color: gray;
+}
+/*for the button panel on the bottom of the page*/
+#bottom_btn_container{
+    display:flex;
+    justify-content: space-between;
+}
+
+#addtopot_container{
+    display:flex;
+    justify-content: space-around;
+}
+/*modify button needs to be on the right*/
+#modbutton{
+    display: flex;
+    justify-content: right;
+}
+
+/*style for all the tables in the project*/
+.table-container {
+    overflow-x: auto;
+}
+.customtable tr{
+    border-bottom: 1px black;
+}
+.customtable tr td {
+    vertical-align: middle;
+}
+
+/*style for forms in the project*/
+.row{
+    display:flex;
+    align-items: center;
+}

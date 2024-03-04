@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tartalmazott növények</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="commonstyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Antal Virágoskertje</h1>
+        <h2 class="text-center">XD-123-beli virágok</h2>
+        <div class="table-container">
+          <table class="table mt-5 customtable">
+            <thead>
+              <tr>
+                <th width="1 rem"></th>
+                <th>Név</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button class="btn btn-danger"><i class="fas fa-trash"></i></button></td>
+                <td>Példanövény</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="container">
+        <div id="addtopot_container">
+            <form>
+                <div class="mb-3 row">
+                  <label for="cserepid" class="col-sm-3 col-form-label">Azonosító:</label>
+                  <div class="col-sm-9">
+                      <input type="text" class="form-control" id="cserepid" name="cserepid">
+                  </div>
+                </div>
+            </form>
+            <button type="submit" class="btn btn-primary">Hozzáadás a cseréphez</button>
+        </div>
+    </div>
+    <div class="container">
+        <div id="bottom_btn_container">
+            <a href="cserepek.html" class="btn btn-primary me-3 back_btn">Vissza</a>
+        </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

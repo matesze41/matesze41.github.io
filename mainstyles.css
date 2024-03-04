@@ -1,0 +1,19 @@
+body {
+    background-color: #a3eae8af;
+  }
+  
+  .container {
+    margin-top: 11rem;
+  }
+  
+  .btn-primary {
+    background-color: black;
+    color:white;
+    border-color: black;
+    padding: 0.7rem 1.6rem;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color:gray;
+    border-color: gray;
+  }
+  
